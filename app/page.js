@@ -29,10 +29,11 @@ export default function Home() {
   }
 
   return (
-    <main>
+    <main className="flex flex-col min-h-[100vh] items-center justify-center">
+
       <section className='advice-card relative w-[80%] h-96 
       flex flex-col justify-center items-center
-      mx-auto bg-DarkGrayishBlue my-16 rounded-md lg:w-[60%]'>
+      mx-auto bg-DarkGrayishBlue  rounded-md lg:w-[60%]'>
 
         <h1 className='uppercase text-NeonGreen text-center font-medium my-2'>{adviceId}</h1>
         <p className='text-LightCyan text-lg text-center px-2 font-bold 
@@ -59,7 +60,7 @@ export default function Home() {
 
 
 
-      <div className='text-center text-xs mt-32 text-gray-500' >
+      <div className='text-center text-xs  text-gray-500' >
         Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
         Coded by <a href="https://tusharthe.vercel.app/" target="_blank">Tushar Biswas</a>.
       </div>
