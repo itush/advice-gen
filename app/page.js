@@ -29,7 +29,7 @@ export default function Home() {
   }
 
   return (
-    <main className="flex flex-col min-h-[100vh] items-center justify-center">
+    <main className="flex flex-col min-h-[100vh] items-center justify-center gap-8">
 
       <section className='advice-card relative w-[80%] h-96 
       flex flex-col justify-center items-center
